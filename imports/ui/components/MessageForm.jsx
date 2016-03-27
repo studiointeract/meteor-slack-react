@@ -8,13 +8,16 @@ class MessageForm extends React.Component {
       evt.preventDefault();
       let text = evt.target.innerText;
       evt.target.innerHTML = "";
-      Messages.insert({ message: text });
+      Messages.insert({ message: text, channel: this.props.channel });
     }
   }
 
   render() {
-    return <ContentEditable onKeyDown={this.handleChange} />;
+    return <ContentEditable html="" onKeyDown={this.handleChange.bind(this)} />;
   }
 }
+MessageForm.propTypes = {
+  channel: React.PropTypes.string
+};
 
 export default MessageForm;
