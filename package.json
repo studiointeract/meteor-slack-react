@@ -6,5 +6,25 @@
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0"
-  }
+  },
+  "version": "1.0.0",
+  "description": "A Meteor version of Slack in React 15.x",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/studiointeract/meteor-slack-react.git"
+  },
+  "keywords": [
+    "react",
+    "meteor",
+    "slack",
+    "flowrouter"
+    "tracker"
+  ],
+  "author": "timbrandin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/studiointeract/meteor-slack-react/issues"
+  },
+  "homepage": "https://github.com/studiointeract/meteor-slack-react"
 }
