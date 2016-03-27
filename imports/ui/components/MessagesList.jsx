@@ -1,11 +1,11 @@
 import React from 'react';
 
-const MessagesList = ({ messages }) => (
+const MessagesList = ({ messages = [] }) => (
   <ul className="messages">
     {messages.map((message, i) =>
-       <li key={i}>
-         <div class="message">{message.message}</div>
-       </li>
+      <li key={i}>
+        <div className="message">{message.message}</div>
+      </li>
     )}
   </ul>
 );
