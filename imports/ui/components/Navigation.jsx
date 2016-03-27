@@ -11,13 +11,8 @@ class Navigation extends Tracker.Component {
     });
   }
 
-  handleSelect(channel) {
-    this.setState({ active: channel });
-  }
-
   render() {
     let { channels = [], active = "general" } = this.state;
-    let selectChannel = this.handleSelect.bind(this);
     return (
       <ChannelsList channels={channels} active={active}
         handleSelect={selectChannel} />
