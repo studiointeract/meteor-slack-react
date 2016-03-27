@@ -6,9 +6,11 @@
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0",
+    "meteor-standalone-tracker": "^1.0.97",
     "react": "^15.0.0-rc.2",
     "react-dom": "^15.0.0-rc.2",
-    "react-mount-layout": "^1.1.3"
+    "react-mount-layout": "^1.1.3",
+    "tracker-component": "^1.3.3-rc.2"
   },
   "version": "1.0.0",
   "description": "A Meteor version of Slack in React 15.x",
