@@ -1,1 +1,2 @@
-import '/imports/api/channels/channels.js';
+import './channels/channels.js';
+import './messages/messages.js';
