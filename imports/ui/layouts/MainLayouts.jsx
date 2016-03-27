@@ -1,3 +1,5 @@
+import React from 'react';
+
 const MainLayout = ({content, nav = ""}) => (
   <div className="app">
     <aside>
