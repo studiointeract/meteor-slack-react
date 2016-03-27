@@ -24,14 +24,11 @@ Clone the repository:
 git clone git@github.com:studiointeract/meteor-slack-react.git
 ```
 
-We created the code for this step just by calling ```meteor create meteor-slack``` in the terminal (console) and then added what was generated to the repo on the master branch (excluding this awesome README).
-
-### We created the code for this step just by following these steps:
+### We created the code for this step just by calling:
 
 ```bash
 
 meteor create meteor-slack-react --release METEOR@1.3-rc.13
-cd meteor-slack-react
 
 ```
 
