@@ -14,8 +14,7 @@ class Navigation extends Tracker.Component {
   render() {
     let { channels = [], active = "general" } = this.state;
     return (
-      <ChannelsList channels={channels} active={active}
-        handleSelect={selectChannel} />
+      <ChannelsList channels={channels} active={active} />
     );
   }
 }
