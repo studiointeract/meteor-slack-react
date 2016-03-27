@@ -1,5 +1,4 @@
 import React from 'react';
-import Tracker from 'tracker-component';
 
 const ChannelPage = ({ channel }) => (
   <div className="channel">
