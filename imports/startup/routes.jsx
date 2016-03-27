@@ -1,7 +1,7 @@
 import { FlowRouter } from 'meteor/kadira:flow-router-ssr';
 import React from 'react';
 import {mount} from 'react-mount-layout';
-import MainLayout from '/imports/ui/layouts/MainLayouts.jsx';
+import MainLayout from '../ui/layouts/MainLayout.jsx';
 
 FlowRouter.route("/", {
   action() {
