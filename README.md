@@ -41,7 +41,7 @@ Each page on the presentation on slides.com presents tasks that you are supposed
 
 ### Follow the steps in the presentation
 
-Navigate to [the presentation on slides.com.](https://slides.com/timbrandin/meteor-slack)
+Navigate to [the presentation on slides.com.](https://slides.com/timbrandin/meteor-slack-react)
 
 > This guide starts on the master branch.
 
