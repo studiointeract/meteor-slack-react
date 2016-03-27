@@ -1,11 +1,13 @@
+import React from 'react';
 import Tracker from 'tracker-component';
-import Channels from './Channels.jsx';
+import ChannelsList from './ChannelsList.jsx';
+import '../../api/channels/channels.js';
 
 class Navigation extends Tracker.Component {
   constructor(props) {
     super(props);
     this.autorun(() => {
-      this.setState({channels: Channels.find()})
+      this.setState({channels: Channels.find().fetch()})
     });
   }
 
@@ -16,7 +18,7 @@ class Navigation extends Tracker.Component {
   render() {
     let { channels = [], active = "general" } = this.state;
     return (
-      <Channels channels={channels} active={active}
+      <ChannelsList channels={channels} active={active}
         handleSelect={this.handleSelect} />
     );
   }
