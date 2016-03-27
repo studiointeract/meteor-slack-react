@@ -6,9 +6,9 @@ const ChannelPage = ({ channel }) => (
   <div className="channel">
     <header>
       <h1>{`#${channel}`}</h1>
-      <ChannelMessages channel={channel} />
-      <MessageForm channel={channel} />
     </header>
+    <ChannelMessages channel={channel} />
+    <MessageForm channel={channel} />
   </div>
 );
 
