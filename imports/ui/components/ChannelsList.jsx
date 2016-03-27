@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Channels = ({ channels, active, handleSelect }) => (
+const ChannelsList = ({ channels, active, handleSelect }) => (
   <ul className="channels">
     {channels.map(channel =>
        <li onClick={handleSelect}>
@@ -10,3 +10,5 @@ const Channels = ({ channels, active, handleSelect }) => (
     )}
   </ul>
 );
+
+export default ChannelsList;
